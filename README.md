@@ -1,1 +1,3 @@
-# cpnt262-round2
+# CPNT 262: Achievements Round 2
+### Derian Valdes
+### 2. Studly caps (SpongeBob case)
