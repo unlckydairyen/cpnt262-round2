@@ -7,12 +7,26 @@
     <title>Studly caps (SpongeBob case)</title>
 </head>
 <body>
-    <p>
-        Where's the gaba goo???
-    </p>
-<index>
+    <h1 id="sentence">
+        where's the gaba goo???
+    </h1>
+<script>
 
-</index>
+function alternateText(sentence){
+    var chars = sentence.toLowerCase().split("");
+    for (let i = 0; i < sentence.length; i+=2) {
+     chars[i]= chars[i].toUpperCase();
+       
+    }
+    return chars.join("");
+}
+    var sentenceNode = document.getElementById("sentence");   
+    var sentence = sentenceNode.innerText;
+
+    console.log(alternateText(sentence));   
+    
+</script>
+
     
 </body>
 </html>
